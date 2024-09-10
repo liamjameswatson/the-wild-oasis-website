@@ -66,7 +66,7 @@ function DateSelector({ settings, cabin, bookedDates }) {
             )}
             <span className="">/night</span>
           </p>
-          {/* {numNights ? ( */}
+          {numNights ? (
             <>
               <p className="bg-accent-600 px-3 py-2 text-2xl">
                 <span>&times;</span> <span>{numNights}</span>
@@ -76,8 +76,9 @@ function DateSelector({ settings, cabin, bookedDates }) {
                 <span className="text-2xl font-semibold">${cabinPrice}</span>
               </p>
             </>
-          {/* )  */}
-          {/* : null} */}
+          ) : (
+            <p>{`Minimum booking: ${minBookingLength} nights`}</p>
+          )}
         </div>
 
         {range.from || range.to ? (
