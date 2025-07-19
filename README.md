@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Wild Oasis – Hotel Management Dashboard
 
-## Getting Started
+## Description
 
-First, run the development server:
+The Wild Oasis is a holdiay booking website, allowing users to book luxury cabins. It is the client facing side to the Wild Oasis Hotel Dashboard, and works in conjunction - sharing the same supabase database. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+By going to the Wild Oasis website a user can:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Sign in using their Google account.
+- Browse available cabins and see details and images.
+- Book a cabin using an interactive calendar to check availability and select dates.
+- Access a user dashboard to view, modify, or cancel existing bookings and manage their profile.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- Tailwind CSS
+- React-day-picker - for the interactive calendar
+- Auth.js - for google authentication
+- Supabase - for database storage orage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Screenshot
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Homepage Screenshot](./screenshot-of-homepage.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## The Website
+
+[Live Demo – Visit The Wild Oasis](https://the-wild-oasis-website-mmpe.vercel.app)
+
+---
+
+## Acknowledgement
+
+This site was built as part of the **Ultimate React Course by Jonas Schmedtmann**.
+
+---
+
+## License
+
+MIT License  
+(Please refer to the [LICENSE](./LICENSE))
