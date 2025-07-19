@@ -1,4 +1,4 @@
-# The Wild Oasis – Hotel Management Dashboard
+# The Wild Oasis Website
 
 ## Description
 
